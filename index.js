@@ -1,8 +1,8 @@
 const actualNum = () => {
   let sum = 0;
-  return (added = (num) => {
+  return (num) => {
     return (sum += num);
-  });
+  };
 };
 const sum = actualNum();
 console.log(sum(3));
